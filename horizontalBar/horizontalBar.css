@@ -1,0 +1,31 @@
+body{
+  margin: 0;
+  padding:0;
+  box-sizing: border-box;
+}
+.icon-bar{
+  width:100%;
+  overflow: hidden;
+  background: #310ff1;
+  margin: 50px 0;
+  box-shadow: 20px 10px 5px #ccc;
+}
+.icon-bar a{
+  float: left;
+  text-align: center;
+  width: 20%;
+  color:white;
+  padding: 42px 0;
+  font-size: 36px;
+  transition: all 0.3s ease-in-out;
+}
+.icon-bar a:hover{
+  background: white;
+  color: #310ff1;
+}
+.icon-bar a:nth-child(1){
+  color:#310ff1;
+}
+.active{
+  background:white;
+}
