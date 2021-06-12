@@ -1,0 +1,31 @@
+body{
+  padding: 0;
+  margin:0;
+  box-sizing: border-box;
+}
+.icon-bar{
+  background:#310ff1;
+  width:90px;
+  margin: 50px auto;
+  border-radius: 10px;
+  box-shadow: 20px -10px 5px #ccc;
+}
+.icon-bar a{
+  display: block;
+  padding: 16px;
+  color:#fff;
+  text-align: center;
+  font-size: 36px;
+  transition: all 0.3s ease-in-out;
+}
+.icon-bar a:hover{
+  background: #fff;
+  color:#310ff1;
+}
+.icon-bar a:nth-child(1){
+  border-radius: 10px 10px 0 0;
+  color:#310ff1;
+}
+.active{
+  background-color:#fff;
+}
