@@ -1,0 +1,49 @@
+body{
+  margin:0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Baloo Tammudu 2', cursive;
+}
+h2{
+  font-size: 35px;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.accordian{
+  width:100%;
+  padding: 18px;
+  border:0;
+  outline: 0;
+  font-family:'Baloo Tammudu 2', cursive;
+  text-align: left;
+  cursor: pointer;
+  transition: 0.4s;
+  background-color: #1e22f3;
+  color:white;
+  font-size: 18px;
+  box-sizing: border-box;
+}
+.accordian::after{
+  content: '+';
+  font-size: 30px;
+  color: white;
+  float: right;
+  margin-left: 5px;
+  font-family: font-awesome;
+}
+.accordian:active{
+  transform: translateY(4px);
+}
+.active, .accordian:hover{
+  background-color: rgb(10, 11, 43);
+}
+.active::after{
+  content: '-';
+  font-size: 30px;
+}
+.panel{
+  padding: 0 18px;
+  overflow: hidden;
+  display: none;
+}
